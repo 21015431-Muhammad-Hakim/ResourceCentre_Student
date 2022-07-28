@@ -96,7 +96,7 @@ public class ResourceCentre {
 
 	}
 
-	public static void menu() {
+	public static void menu() {//print out menu
 		ResourceCentre.setHeader("RESOURCE CENTRE APP");
 		System.out.println("1. Display Inventory");
 		System.out.println("2. Add item");
@@ -239,7 +239,7 @@ public class ResourceCentre {
 		if (isLoaned == false) {
 			System.out.println("Invalid asset tag");
 		} else {
-			System.out.println("Camcorder " + tag + " loaned out");
+			System.out.println("Chromebook " + tag + " loaned out");
 		}	
 	}
 	
